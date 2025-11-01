@@ -1,4 +1,5 @@
 import "./globals.css";
+import { ThemeProvider } from "@/components/Provider/theme-provider";
 
 export const metadata = {
   title: "Mon Site",
@@ -11,9 +12,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="fr" className="h-full">
+    <html lang="fr" className="h-full" suppressHydrationWarning>
       <body className="h-full overflow-hidden">
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );

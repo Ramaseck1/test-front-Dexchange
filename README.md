@@ -8,7 +8,7 @@
 - npm,
 
 
-## 🛠️ Technologies utilisées
+## Technologies utilisées
 
 ### Frontend
 - **Next.js 14** - Framework React avec App Router
@@ -64,6 +64,7 @@ npm run type-check   # Vérifie les types TypeScript
 
 ### Composants Shadcn/ui utilisés
 npx shadcn@latest init: //installation de shadcn/ui
+COMMAND d'ajout des composant shadcn/ui : npx shadcn@latest add input
     - `button`, `input`, `checkbox`, `switch`
     - `form`, `label`, `dropdown-menu`
     - `sheet` (menu mobile)
@@ -72,7 +73,7 @@ npx shadcn@latest init: //installation de shadcn/ui
 
 
 
-## 📁 Structure du projet
+##  Structure du projet
  
 text-exchange-saas/
 ├── app/                      # App Router Next.js
