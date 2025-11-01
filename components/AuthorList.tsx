@@ -67,17 +67,7 @@ export default function TablesPage() {
             role: "Developer",
             status: "Offline",
             employed: "14/06/21",
-        },
-        {
-            id: 6,
-            name: "Mark Wilson",
-            email: "mark@simmmple.com",
-             avatar: "/authors/uszr3.png",  
-            function: "Designer",
-            role: "UI/UX Design",
-            status: "Offline",
-            employed: "14/06/21",
-        },
+        }
     ];
 
  
