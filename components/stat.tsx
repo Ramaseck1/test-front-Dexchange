@@ -3,7 +3,7 @@
   "use client";
   
    import { usePathname } from "next/navigation";
-   import { Search, Bell, User, TrendingUp, Users, ShoppingCart, DollarSign } from "lucide-react";
+   import { Search, Bell, User,Globe, TrendingUp, Users,Wallet, FileText ,ShoppingCart, DollarSign } from "lucide-react";
 
  
  type StatCard = {
@@ -25,32 +25,32 @@
       value: "$53,000",
       change: "+55%",
       isPositive: true,
-      icon: <DollarSign className="w-5 h-5" />,
-      iconBg: "bg-teal-500",
+      icon: <Wallet className="w-5 h-5" />,
+      iconBg: "bg-teal-300",
     },
     {
       title: "Today's Users",
       value: "2,300",
       change: "+3%",
       isPositive: true,
-      icon: <Users className="w-5 h-5" />,
-      iconBg: "bg-blue-500",
+      icon: <Globe className="w-5 h-5" />,
+      iconBg: "bg-teal-300",
     },
     {
       title: "New Clients",
       value: "+3,052",
       change: "-2%",
       isPositive: false,
-      icon: <ShoppingCart className="w-5 h-5" />,
-      iconBg: "bg-emerald-500",
+      icon: <FileText className="w-5 h-5" />,
+      iconBg: "bg-teal-300",
     },
     {
       title: "Total Sales",
       value: "$173,000",
       change: "+5%",
       isPositive: true,
-      icon: <TrendingUp className="w-5 h-5" />,
-      iconBg: "bg-orange-500",
+      icon: <ShoppingCart className="w-5 h-5" />,
+      iconBg: "bg-teal-300",
     },
   ];
     return (

@@ -55,7 +55,7 @@ export default function NavbarAuth() {
  
   return (
     <nav
-        className="bg-teal-500  max-w-455 m-4 border-b rounded-2xl shadow-sm fixed   mt-6 w-full top-0 left-0 z-50 pb-100"
+        className="bg-teal-300  max-w-455 m-4 border-b rounded-2xl shadow-sm fixed   mt-6 w-full top-0 left-0 z-50 pb-100" 
       >        <div className="max-w-7xl mx-auto px-4 flex justify-between items-center h-16">
           <div className="absolute top-0 right-0 w-64 h-64 bg-white/10 rounded-full -mr-32 -mt-32"></div>
 
@@ -101,7 +101,7 @@ export default function NavbarAuth() {
                 </Button>
               </SheetTrigger>
 
-              <SheetContent side="left" className="w-[240px]">
+<SheetContent side="left" className="w-[280px] ">
                 <div className="flex flex-col space-y-4 mt-6">
                   {links.map((link) => (
                     <Link

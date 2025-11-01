@@ -175,7 +175,7 @@ export default function Login() {
                 <Link href="/routes/dashboard" className="w-full block">
                   <Button
                     type="button"
-                    className="w-full bg-teal-500 hover:bg-teal-600 text-white font-semibold py-3 rounded-lg transition"
+                    className="w-full bg-teal-300 hover:bg-teal-600 text-white font-semibold py-3 rounded-lg transition"
                   >
                     S'inscrire
                   </Button>

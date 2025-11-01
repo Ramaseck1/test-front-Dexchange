@@ -45,7 +45,7 @@ export default function Dashboard() {
                         <Stats />
 
                         <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 mb-8 mt-8">
-                            <div className="flex justify-around bg-white rounded-3xl h-48 p-6">
+                            <div className="flex justify-around bg-white rounded-3xl h-58 p-6">
                                 <div className="flex flex-col justify-between">
                                     <div>
                                         <h3 className="text-xl font-bold mb-2">Lorem Ipsum</h3>
@@ -55,24 +55,31 @@ export default function Dashboard() {
                                     </div>
                                     <button className="text-sm font-medium text-left">Read more →</button>
                                 </div>
-                                <div className="bg-gradient-to-br from-teal-400 to-teal-500 rounded-3xl w-80 relative text-white">
+                                <div className=" rounded-3xl w-80 h-50 relative text-white  bg-cover bg-center"   style={{ backgroundImage: "url('/chakra.png')" }}
+>
                                     <div className="flex items-center gap-3 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-                                        <Zap className="bg-white border-b rounded-2xl  text-gray-300" />
-                                        <h2 className="font-bold text-2xl">chakra</h2>
+                                    
                                     </div>
                                 </div>
                             </div>
 
-                            <div className="bg-gray-900 rounded-3xl overflow-hidden relative h-48">
-                                <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                                <div className="absolute bottom-6 left-6 text-white">
-                                    <h3 className="text-xl font-bold mb-2">Lorem Ipsum</h3>
-                                    <p className="text-white/80 text-sm mb-3">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing<br />elit
-                                    </p>
-                                    <button className="text-sm font-medium">Read more →</button>
-                                </div>
-                            </div>
+                           <div
+  className="relative rounded-3xl overflow-hidden h-58  bg-cover bg-center"
+  style={{ backgroundImage: "url('/bureau.png')" }}
+>
+  {/* Dégradé noir transparent */}
+  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+
+  {/* Texte et bouton */}
+  <div className="absolute bottom-6 left-6 text-white">
+    <h3 className="text-xl font-bold mb-2">Lorem Ipsum</h3>
+    <p className="text-white/80 text-sm mb-3">
+      Lorem ipsum dolor sit amet, consectetur adipiscing<br />elit
+    </p>
+    <button className="text-sm font-medium">Read more →</button>
+  </div>
+</div>
+
                         </div>
 
                         <div className="grid grid-cols-1 xl:grid-cols-3 gap-8">

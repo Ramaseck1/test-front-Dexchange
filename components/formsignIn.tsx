@@ -45,7 +45,7 @@ export default function formsignIn() {
  
  
   return (
-  <div className="bg-white z-100 w-full max-w-md rounded-3xl shadow-2xl p-8">
+<div className="bg-white z-100 w-full max-w-md rounded-3xl shadow-2xl p-8">
 
             <h2 className="text-xl font-semibold text-gray-800 text-center mb-6">
 connexion            </h2>
@@ -130,7 +130,7 @@ connexion            </h2>
                 <Link href="/routes/dashboard" className="w-full block">
                   <Button
                     type="button"
-                    className="w-full bg-teal-500 hover:bg-teal-600 text-white font-semibold py-3 rounded-lg transition"
+                    className="w-full bg-teal-300 hover:bg-teal-600 text-white font-semibold py-3 rounded-lg transition"
                   >
                     Connexion
                   </Button>
